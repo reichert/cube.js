@@ -1,4 +1,4 @@
-const MySqlDriver = require('../driver/MySqlDriver');
+const MySqlDriver = require('../src/MySqlDriver');
 
 const createDriver = (c) => new MySqlDriver({
   host: c.getHost(),
